@@ -58,7 +58,17 @@
   padding-top: 20px;
 }
 
+.earth_heading:hover{
+  text-decoration: underline;
+  color:rgb(47, 255, 113) ;
+  cursor: pointer;
+}
 
+.earth_para:hover{
+  text-decoration: underline;
+  color:rgb(47, 210, 255) ;
+  cursor: pointer;
+}
 
 .earth_mini_box {
   background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 

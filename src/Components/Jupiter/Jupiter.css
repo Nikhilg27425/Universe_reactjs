@@ -24,6 +24,18 @@
     padding-top: 20px;
 }
 
+.jupiter_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(228, 149, 59);
+}
+
+.jupiter_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(59, 191, 228);
+}
+
 .jupiter-boxes{
     height: 440px;
     width: 550px;

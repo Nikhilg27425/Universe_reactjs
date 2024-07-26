@@ -30,6 +30,18 @@
     text-align: center;
 }
 
+.neptune_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgba(245, 245, 245, 0.789) ;
+}
+
+.neptune_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgba(120, 119, 119, 0.789) ;
+}
+
 .neptune-boxes{
     height: 440px;
     width: 750px;

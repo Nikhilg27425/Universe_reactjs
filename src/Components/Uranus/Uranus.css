@@ -27,6 +27,18 @@
     padding-top: 20px;
 }
 
+.uranus_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(68, 180, 224) ;
+}
+
+.uranus_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(18, 150, 202) ;
+}
+
 .uranus-boxes{
     height: 440px;
     width: 750px;

@@ -31,6 +31,18 @@
     padding-bottom: 20px;
 }
 
+.sun_heading:hover{
+    color: rgb(255, 179, 0);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.sun-para:hover{
+    color: yellow;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .sun-para{
     padding-top: 20px;
     padding-bottom: 20px;

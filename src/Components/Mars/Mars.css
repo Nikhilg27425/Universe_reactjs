@@ -36,6 +36,18 @@
     padding-left: 70px;
 }
 
+.mars_left_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(255, 85, 0)
+}
+
+.mars_left_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(255, 153, 0)
+}
+
 .mars_mid_content{
     width:500px ;
     margin-left: 650px;

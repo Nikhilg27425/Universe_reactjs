@@ -37,6 +37,18 @@
 
 }
 
+.mer_header:hover{
+    color: rgb(111, 111, 111) ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.mer_para:hover{
+    color: rgb(189, 172, 172) ;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .mer_boxes{
     flex-wrap: wrap;
     display: flex;

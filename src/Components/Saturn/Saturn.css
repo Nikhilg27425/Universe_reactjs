@@ -29,6 +29,18 @@
     padding-top: 20px;
 }
 
+.saturn_header:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(240, 136, 18);
+}
+
+.saturn_para:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color:rgb(240, 184, 18);
+}
+
 .saturn-boxes{
     height: 440px;
     width: 750px;
