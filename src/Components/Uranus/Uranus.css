@@ -1,0 +1,164 @@
+.uranus_left_content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right:80px;
+    margin-top: -30px;
+}
+
+
+.uranus_content{
+    color: white;
+    height: 200px;
+    width: 600px;
+    padding-top: 50px;
+    padding-left: -50px;
+}
+
+.uranus_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+    padding-left: 65px;
+    
+}
+
+.uranus_para{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.uranus-boxes{
+    height: 440px;
+    width: 750px;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    margin-top: -180px;
+}
+  
+.uranus_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.uranus_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+}
+  
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.uranus_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+  
+.uranus_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.uranus_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+.uranus_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+
+.uranus_img{
+    height: 450px;
+    padding-left: 280px;
+    margin-top:30px;
+}
+
+
+@media (max-width: 768px) {
+    .uranus_left_content {
+        margin-right: 0;
+        margin-top: 0;
+        justify-content: center;
+    }
+
+    .uranus_content {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .uranus_header {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .uranus_para {
+        padding-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .uranus-boxes {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .uranus_mini_box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .uranus_img {
+        height: auto;
+        width: 100%;
+        padding-left: 0;
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .uranus_header {
+        font-size: 30px;
+    }
+
+    .uranus_box_value, .uranus_box_unit {
+        font-size: 32px;
+    }
+
+    .uranus_mini_box {
+        width: 100%;
+    }
+
+    .donut-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .uranus_box_label {
+        font-size: 12px;
+    }
+}

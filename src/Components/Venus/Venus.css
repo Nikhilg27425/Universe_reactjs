@@ -1,0 +1,163 @@
+.venus{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+}
+
+.venus_img{
+    width: 800px;
+    height: 95%;
+}
+  
+.venus_info{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 850px;
+    border: 4px transparent gray;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 35px;
+    color: white;
+}
+
+.venus_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+}
+
+.venus_para{
+    padding-top:  20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+
+}
+
+.venus_boxes{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+
+.venus_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 25px;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.venus_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+  }
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.venus_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+
+.venus_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.venus_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+.venus_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+.orange_therm{
+    width: 60px;
+    height: 90px;
+    margin-right: 20px;
+}
+
+
+@media (max-width: 1024px) {
+    .venus {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .venus_img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .venus_info {
+        width: 90%;
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .venus_header {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .venus_para {
+        font-size: 18px;
+    }
+
+    .venus_mini_box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .venus_header {
+        font-size: 36px;
+    }
+
+    .venus_box_value, .venus_box_unit {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .venus_header {
+        font-size: 30px;
+    }
+
+    .venus_box_value, .venus_box_unit {
+        font-size: 24px;
+    }
+
+    .donut-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .venus_box_label {
+        font-size: 12px;
+    }
+
+    .venus_para {
+        font-size: 16px;
+    }
+}

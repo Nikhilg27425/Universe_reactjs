@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.components {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30px;
+    width: 1200px;
+    margin-top: 15px;
+    color: white;
+    margin-left:  150px;
+}
+
+.logo {
+    padding-top: 3px;
+    height: 40px;
+    width: 350px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list a {
+    padding-right: 25px;
+    padding-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list a:hover {
+    cursor: pointer;
+    color: red;
+    text-decoration: underline;
+}
+
+
+.menu-toggle {
+    display: none; 
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-toggle div {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+
+@media (max-width: 768px) {
+    .components {
+        flex-direction: column;
+        height: auto; 
+        align-items: flex-start;
+        margin-left: 0; 
+    }
+
+    .list {
+        display: none; 
+    }
+
+    .menu-toggle {
+        display: flex; 
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-open .list {
+        display: flex; 
+        flex-direction: column;
+        width: 100%; 
+        padding: 10px 0; 
+        background-color: #333; 
+    }
+
+    .menu-open .list a {
+        padding: 10px 20px; 
+    }
+}

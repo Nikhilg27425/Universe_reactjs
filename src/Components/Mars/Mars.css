@@ -1,0 +1,194 @@
+.mars_img{
+    width: 600px;
+    height: 500px;
+    margin-left: -10px;
+}
+
+.mars{
+    margin-bottom: 69px;
+}
+
+.mars_arrow{
+    width: 95px;
+    height: 65px;
+    z-index: 1;
+}
+
+.mars_left_content{
+    width:750px ;
+    height: 600px;
+    margin-left: 8px;
+    padding-top: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.mars_left_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+    padding-left: 70px;
+}
+
+.mars_left_para{
+    padding-left: 70px;
+}
+
+.mars_mid_content{
+    width:500px ;
+    margin-left: 650px;
+    margin-top: -320px; 
+    padding-top: 25px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.mars_mid_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+}
+
+
+
+.mars-boxes{
+    height: 600px;
+    width: 850px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 850px;
+    margin-top: -520px;
+}
+  
+.mars_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mars_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+  }
+
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+.mars_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+
+.mars_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.mars_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+.mars_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+
+@media (max-width: 1024px) {
+    .mars_img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .mars_left_content {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .mars_left_header, .mars_left_para {
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .mars_mid_content {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 0;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .mars-boxes {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .mars_mini_box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .mars_left_header {
+        font-size: 40px;
+    }
+
+    .mars_mid_header {
+        font-size: 40px;
+    }
+
+    .mars_box_value, .mars_box_unit {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 480px) {
+    .mars_left_header {
+        font-size: 30px;
+    }
+
+    .mars_mid_header {
+        font-size: 30px;
+    }
+
+    .mars_box_value, .mars_box_unit {
+        font-size: 24px;
+    }
+
+    .mars_mini_box {
+        width: 100%;
+    }
+
+    .donut-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .mars_box_label {
+        font-size: 12px;
+    }
+}

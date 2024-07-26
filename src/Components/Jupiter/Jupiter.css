@@ -1,0 +1,143 @@
+.jupiter_left_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.jupiter_content{
+    color: white;
+    height: 200px;
+    width: 800px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.jupiter_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+    padding-left: 70px;
+}
+
+.jupiter_para{
+    padding-left: 70px;
+    padding-top: 20px;
+}
+
+.jupiter-boxes{
+    height: 440px;
+    width: 550px;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+  
+.jupiter_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.jupiter_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+}
+  
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.jupiter_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+  
+.jupiter_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.jupiter_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+.jupiter_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+.jupiter_all_content{
+    display: flex;
+}
+
+.jupiter_image{
+    height: 700px;
+    width: 800px;
+}
+
+
+@media (max-width: 768px) {
+    .jupiter_content {
+        padding: 15px;
+    }
+
+    .jupiter_header {
+        font-size: 4vw; 
+    }
+
+    .jupiter_para {
+        padding-top: 10px;
+    }
+
+    .jupiter-boxes {
+        flex-direction: column;
+        margin: 20px 0;
+    }
+
+    .jupiter_mini_box {
+        width: 90%;
+    }
+
+    .jupiter_image {
+        margin-top: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .jupiter_header {
+        font-size: 6vw; 
+    }
+
+    .jupiter_box_value,
+    .jupiter_box_unit {
+        font-size: 6vw; 
+    }
+
+    .jupiter_mini_box {
+        width: 100%; 
+    }
+
+    .donut-image {
+        width: 8vw; 
+    }
+
+    .jupiter_box_label {
+        font-size: 4vw; 
+    }
+}

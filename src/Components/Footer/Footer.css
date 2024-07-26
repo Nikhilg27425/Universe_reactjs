@@ -1,0 +1,132 @@
+.footer{
+    height: 400px;
+    width:1400px;
+    background-color: black;
+    color: white;
+    margin-top: 120px;
+    margin-left: 55px;
+    border: 4px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer_header{
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+    padding-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer_para{
+    padding-bottom: 20px;
+    width: 700px;
+    text-align: center;
+}
+
+.email_footer{
+    background-color: white;
+    width: 600px;
+    height: 70px;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 40px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+.subscribe{
+    background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    color: white;
+    height: 50px;
+    width: 140px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.email_bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1240px;
+    height: 50px;
+}
+
+.p{
+    padding-left: 25px;
+    padding-right: 25px ;
+}
+
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 20px;
+    }
+
+    .footer_header {
+        font-size: 4vw; 
+    }
+
+    .footer_para {
+        width: 100%;
+    }
+
+    .email_footer {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        margin-bottom: 20px; 
+    }
+
+    .subscribe {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .email_bottom {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .p {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer_header {
+        font-size: 6vw;
+    }
+
+    .footer_para {
+        font-size: 14px;
+    }
+
+    .email_footer {
+        width: 100%;
+        padding: 5px;
+    }
+
+    .subscribe {
+        width: 100%;
+        height: 40px;
+        border-radius: 20px;
+        font-size: 14px;
+    }
+
+    .email_bottom {
+        width: 100%;
+    }
+
+    .p {
+        padding: 5px 0;
+    }
+}

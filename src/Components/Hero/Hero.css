@@ -1,0 +1,151 @@
+.heroe{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 700px;
+    border-bottom: 2px solid gray;
+    width: 100vw;
+}
+
+
+.home {
+    height: 400px;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    color: white;
+    margin-left: 60px;
+    margin-top: -30px;
+}
+
+.home h1 {
+    font-weight: 900;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.home-btn {
+    height: 60px;
+    width: 120px;
+    background: linear-gradient(315deg, #CD1013 1.19%, #FF0004 1.5%, #2500FF 94.46%);
+    margin-top: 20px;
+    border: 2px solid blue;
+    border-radius: 30px;
+}
+
+.planet1{
+    height: 120px;
+    margin-top: 50px;
+}
+
+.planet2{
+    height: 400px;
+}
+
+.planet3{
+    height: 150px;
+    margin-bottom: 24px;
+}
+
+.planet4{
+    height: 370px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.planet5{
+    height: 300px;
+    margin-bottom: 41px;
+}
+
+.planet_mid{
+    margin-bottom: -1500px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .heroe {
+        flex-direction: column;
+        height: auto; 
+        padding: 10px; 
+    }
+
+    .home {
+        width: 100%; 
+        padding: 15px; 
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .home h1 {
+        font-size: 4vw; 
+    }
+
+    .home-btn {
+        font-size: 1rem; 
+    }
+
+    .planet1,
+    .planet2,
+    .planet3,
+    .planet4,
+    .planet5 {
+        width: 80%; 
+        margin: 10px 0; 
+    }
+
+    .planet1,
+    .planet3 {
+        height: auto; 
+    }
+
+    .planet2,
+    .planet4 {
+        height: auto; 
+    }
+
+    .planet5 {
+        height: auto; 
+    }
+}
+
+@media (max-width: 480px) {
+    .home h1 {
+        font-size: 6vw; 
+    }
+
+    .home-btn {
+        font-size: 0.8rem; 
+        padding: 8px 16px; 
+    }
+
+    .planet1,
+    .planet2,
+    .planet3,
+    .planet4,
+    .planet5 {
+        width: 100%; 
+        margin: 5px 0; 
+    }
+
+    .planet1,
+    .planet3 {
+        height: auto;
+    }
+
+    .planet2,
+    .planet4 {
+        height: auto; 
+    }
+
+    .planet5 {
+        height: auto; 
+    }
+}

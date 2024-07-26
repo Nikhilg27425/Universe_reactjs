@@ -1,0 +1,160 @@
+.neptune_left_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right:80px;
+    margin-top: -30px;
+}
+
+
+.neptune_content{
+    color: white;
+    height: 200px;
+    width: 800px;
+    padding-top: 50px;
+    padding-left: -50px;
+}
+
+.neptune_header{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Orbitron;
+    padding-left: 295px;
+    
+}
+
+.neptune_para{
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.neptune-boxes{
+    height: 440px;
+    width: 750px;
+    flex-wrap: wrap-reverse;
+    display: flex;
+    justify-content: space-between;
+    margin-right: -50px;
+    margin-top: -180px;
+  }
+  
+  .neptune_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%); 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+.neptune_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+}
+  
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.neptune_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+  
+.neptune_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.neptune_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+.neptune_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+
+.neptune_img{
+    margin-top: -520px;
+}
+
+
+@media (max-width: 768px) {
+    .neptune_left_content {
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .neptune_content {
+        height: auto;
+        width: 100%;
+        padding-top: 20px;
+        padding-left: 0;
+    }
+
+    .neptune_header {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .neptune_para {
+        padding-left: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .neptune-boxes {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-right: 0;
+        margin-top: 0;
+        align-items: center;
+    }
+
+    .neptune_mini_box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .neptune_img {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .neptune_header {
+        font-size: 30px;
+    }
+
+    .neptune_box_value, .neptune_box_unit {
+        font-size: 32px;
+    }
+
+    .neptune_mini_box {
+        width: 100%;
+    }
+
+    .donut-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .neptune_box_label {
+        font-size: 12px;
+    }
+}

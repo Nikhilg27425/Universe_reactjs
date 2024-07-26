@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+
+.sun-image{
+    background-image: url("sun.png");
+    background-size: cover;
+    position: relative;
+    width: 1000px;
+    height: 370px;
+    top: 0rem;
+    left: 300px;
+    z-index: 1;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 100px;
+    margin-top: -60px;
+    width: 800px;
+    height: 350px;
+    
+}
+
+.sun_heading{
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Orbitron;
+    padding-bottom: 20px;
+}
+
+.sun-para{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.sun_mini_box {
+    background: linear-gradient(135deg, #2a0845 0%, #6441a5 100%);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 350px;
+    height: 180px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.donut-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+  
+.temp_scale_Image{
+    width: 60px;
+    height: 120px;
+    margin-right: 20px;
+}
+
+.sun_text_content {
+    text-align: left;
+    color: #ffffff;
+}
+  
+.sun_box_label {
+    font-size: 14px;
+    opacity: 0.8;
+}
+  
+.sun_box_value {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+.sun_box_unit {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: Orbitron;
+}
+  
+
+.sun-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sun_mini_box:hover{
+    border: 4px solid white;
+    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+}
+  
+
+
+@media (max-width: 1200px) {
+    .sun-image {
+        width: 80%;
+        height: auto;
+        left: 0;
+        margin: 0 auto;
+    }
+
+    .box {
+        width: 90%;
+        margin: 20px auto;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sun_heading {
+        font-size: 40px;
+    }
+
+    .sun_mini_box {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .sun-boxes {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .sun_heading {
+        font-size: 30px;
+    }
+
+    .sun_box_value, .sun_box_unit {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .sun_heading {
+        font-size: 24px;
+    }
+
+    .sun_box_value, .sun_box_unit {
+        font-size: 24px;
+    }
+
+    .donut-image, .temp_scale_Image {
+        width: 40px;
+        height: auto;
+    }
+
+    .sun_box_label {
+        font-size: 12px;
+    }
+
+    .sun-para {
+        font-size: 16px;
+    }
+}
+
+
