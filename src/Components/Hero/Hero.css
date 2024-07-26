@@ -4,8 +4,9 @@
     flex-direction: row;
     justify-content: space-around;
     height: 700px;
-    border-bottom: 2px solid gray;
+    border-bottom: 2px solid blue;
     width: 100vw;
+    /* padding-bottom: 20px; */
 }
 
 
