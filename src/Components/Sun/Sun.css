@@ -10,7 +10,6 @@
     height: 370px;
     top: 0rem;
     left: 300px;
-    z-index: 1;
 }
 
 .box{
@@ -109,3 +108,11 @@
     -12px 12px 4px 4px rgba(39, 7, 197, 0.5);
 }
   
+
+@media(max-width:1200px){
+    .sun-image{
+        width: 500px;
+        height: 180px;
+    }
+    
+}

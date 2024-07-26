@@ -34,3 +34,19 @@
     color: red;
     text-decoration: underline;
 }
+
+
+@media (max-width:1200px) {
+    .list{
+        display: none;
+    }
+    .components{
+        margin-bottom: 120px;
+    }
+    .logo{
+        margin-left: -250px;
+    }
+    .description{
+        padding-right: 150px;
+    }
+}

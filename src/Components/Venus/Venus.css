@@ -106,3 +106,31 @@
     margin-right: 20px;
 }
 
+@media(max-width:1200px){
+    .venus_img{
+        width: 350px;
+        margin-top: 50px;
+        height: 95%;
+    }
+    .venus_mini_box{
+        width: 200px;
+        height: 100px;
+        border-radius: 15px;
+        padding: 20px;
+    }
+    .donut-image {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    .venus_box_value {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Orbitron;
+    }
+    .orange_therm{
+        width: 30px;
+        height: 40px;
+        margin-right: 20px;
+    }
+}

@@ -148,3 +148,13 @@
   width: 600px;
   margin-bottom: 60px;
 }
+
+
+@media(max-width:1200px){
+  .earth_mini_box{
+    display: none;
+  }
+  .arrow_img{
+    display: none;
+  }
+}

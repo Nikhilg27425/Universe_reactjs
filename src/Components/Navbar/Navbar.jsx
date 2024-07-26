@@ -18,7 +18,7 @@ function Navbar() {
                     <NavLink to='/Mars' ><a href='#'>Mars</a></NavLink>
                 </div>
                 <div className="description">
-                    <span>@2023 Slarsystemdesign</span>
+                    <p>@2023 Slarsystemdesign</p>
                 </div>
             </div>
             </Link>

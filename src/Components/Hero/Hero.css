@@ -69,3 +69,22 @@
 }
 
 
+@media (max-width:1200px) {
+    .left_planets{
+        display: none;
+    }
+    .right_planets{
+        display: none;
+    }
+    .planet_mid{
+        display: none;
+    }
+    .home{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroe{
+        margin-bottom: 0px;
+    }
+}
