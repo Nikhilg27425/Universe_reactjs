@@ -91,71 +91,9 @@
 
 .sun_mini_box:hover{
     border: 4px solid white;
-    box-shadow: 10px 10px 5px 2px rgba(39, 7, 197, 0.5), -10px -10px 5px 2px rgba(39, 7, 197, 0.5);
+    box-shadow: 12px 12px 4px 4px rgba(39, 7, 197, 0.5), 
+    -12px -12px 4px 4px rgba(39, 7, 197, 0.5), 
+    12px -12px 4px 4px rgba(39, 7, 197, 0.5), 
+    -12px 12px 4px 4px rgba(39, 7, 197, 0.5);
 }
   
-
-
-@media (max-width: 1200px) {
-    .sun-image {
-        width: 80%;
-        height: auto;
-        left: 0;
-        margin: 0 auto;
-    }
-
-    .box {
-        width: 90%;
-        margin: 20px auto;
-        align-items: center;
-        text-align: center;
-    }
-
-    .sun_heading {
-        font-size: 40px;
-    }
-
-    .sun_mini_box {
-        width: 80%;
-        margin: 10px auto;
-    }
-
-    .sun-boxes {
-        flex-direction: column;
-    }
-}
-
-@media (max-width: 768px) {
-    .sun_heading {
-        font-size: 30px;
-    }
-
-    .sun_box_value, .sun_box_unit {
-        font-size: 36px;
-    }
-}
-
-@media (max-width: 480px) {
-    .sun_heading {
-        font-size: 24px;
-    }
-
-    .sun_box_value, .sun_box_unit {
-        font-size: 24px;
-    }
-
-    .donut-image, .temp_scale_Image {
-        width: 40px;
-        height: auto;
-    }
-
-    .sun_box_label {
-        font-size: 12px;
-    }
-
-    .sun-para {
-        font-size: 16px;
-    }
-}
-
-

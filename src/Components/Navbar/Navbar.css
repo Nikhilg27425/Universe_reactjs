@@ -53,34 +53,3 @@ body {
     background-color: white;
     margin: 3px 0;
 }
-
-@media (max-width: 768px) {
-    .components {
-        flex-direction: column;
-        height: auto; 
-        align-items: flex-start;
-        margin-left: 0; 
-    }
-
-    .list {
-        display: none; 
-    }
-
-    .menu-toggle {
-        display: flex; 
-    }
-}
-
-@media (max-width: 768px) {
-    .menu-open .list {
-        display: flex; 
-        flex-direction: column;
-        width: 100%; 
-        padding: 10px 0; 
-        background-color: #333; 
-    }
-
-    .menu-open .list a {
-        padding: 10px 20px; 
-    }
-}
