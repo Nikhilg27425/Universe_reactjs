@@ -39,17 +39,3 @@ body {
     color: red;
     text-decoration: underline;
 }
-
-
-.menu-toggle {
-    display: none; 
-    flex-direction: column;
-    cursor: pointer;
-}
-
-.menu-toggle div {
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 3px 0;
-}
