@@ -43,7 +43,7 @@ function Mercury() {
                 </div>
             </div>
 
-            <div className="mer_mini_box">
+            <div className="mer_mini_box_3">
                 <img src={blue_therm} alt="Donut" className="therm" />
                 <div className="mer_text_content">
                     <div className="mer_box_label">Night time Temperature</div>

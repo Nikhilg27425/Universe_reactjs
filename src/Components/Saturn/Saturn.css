@@ -107,3 +107,9 @@
     width: 800px;
 }
 
+@media(max-width:1200px){
+    .saturn_all_content{
+        margin-bottom: 250px;
+        margin-right:80px;
+    }
+}

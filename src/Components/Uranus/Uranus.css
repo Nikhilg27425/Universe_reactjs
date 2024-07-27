@@ -102,3 +102,20 @@
     margin-top:30px;
 }
 
+@media(max-width:1200px){
+    .uranus-boxes{
+        display: none;
+    }
+    .uranus_header{
+        padding-left: 5px;
+        
+    }
+    
+    .uranus_para{
+        padding-left: 5px;
+    }
+
+    .uranus_left_content{
+        margin-top: -200px;
+    }
+}

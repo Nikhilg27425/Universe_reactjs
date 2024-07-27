@@ -121,3 +121,10 @@
     font-weight: bold;
     font-family: Orbitron;
 }
+
+
+@media(max-width:1200px){
+    .mars_mid_content{
+        display: none;
+    }
+}

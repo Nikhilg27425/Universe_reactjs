@@ -157,4 +157,18 @@
   .arrow_img{
     display: none;
   }
+  .earth_img{
+    width: 400px;
+    height: 193px;
+    z-index: 1;
+    margin-top: -150px;
+    margin-left: 250px;
+    margin-bottom: -350px;
+  }
+  .earth_img_l1{
+    display: none;
+  }
+  .middle_content{
+    display: none;
+  }
 }
