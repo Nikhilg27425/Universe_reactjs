@@ -22,7 +22,7 @@ function Footer() {
           </div>
     
           <button className='subscribe'>
-              <p>Subscribe</p>
+              <p className='suns-para'>Subscribe</p>
               <div className="subs_arrow">
                 <img src={arrow}/>
               </div>
